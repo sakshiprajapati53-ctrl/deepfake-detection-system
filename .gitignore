@@ -1,2 +1,16 @@
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
 .env
- __pycache__/
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.cache/
+huggingface_cache/
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.m4a
